@@ -27,6 +27,7 @@ CONTROL STANDARDS:
 
 DUP_THRESHOLD = 0.78
 REVIEW_THRESHOLD = 0.7
+MIN_WORDS = 8
 
 
 def triage(issue_text: str, save_to_log: bool = True) -> dict:
@@ -58,13 +59,21 @@ def triage(issue_text: str, save_to_log: bool = True) -> dict:
 
     # 3. Governance flags
     is_dup = bool(similar) and similar[0]["similarity"] >= DUP_THRESHOLD
-    needs_review = result.confidence < REVIEW_THRESHOLD or result.severity == "critical"
+    reasons = []
+    if result.confidence < REVIEW_THRESHOLD:
+        reasons.append("low model confidence")
+    if result.severity == "critical":
+        reasons.append("critical severity")
+    if len(issue_text.split()) < MIN_WORDS:
+        reasons.append("issue description too short to triage reliably")
+    needs_review = bool(reasons)
 
     out = {
         "result": result.model_dump(),
         "similar": similar,
         "possible_duplicate": is_dup,
         "needs_human_review": needs_review,
+        "review_reasons": reasons,
     }
 
     if save_to_log:

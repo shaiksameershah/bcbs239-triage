@@ -14,7 +14,7 @@ if st.button("Triage") and text.strip():
     r = out["result"]
 
     if out["needs_human_review"]:
-        st.warning("Needs human review: low confidence or critical severity")
+        st.warning("Needs human review: " + "; ".join(out["review_reasons"]))
     if out["possible_duplicate"]:
         st.error("Possible duplicate or recurrence of an earlier issue")
 
