@@ -1,10 +1,11 @@
 # Data Quality Control Standards (fictional, for demo only)
 
 ## DQ-01 Severity and SLA
-- Critical: affects regulatory reporting or risk aggregation and no workaround exists. SLA 5 days.
-- High: affects a critical data element (CDE) but a workaround exists. SLA 15 days.
-- Medium: affects internal management reporting only. SLA 45 days.
-- Low: cosmetic, documentation, or naming issues. SLA 90 days.
+Decide severity in this order and stop at the first match:
+1. Critical (SLA 5 days): a regulatory report or risk aggregation has been misstated or has missed its deadline, or changes were released into it without review or testing, and no workaround exists.
+2. High (SLA 15 days): affects a critical data element (CDE) used in reporting, or causes material numerical differences, and a workaround exists or the report is not regulatory.
+3. Medium (SLA 45 days): affects internal management or operational reporting only (dashboards, internal reports), even when delays are long.
+4. Low (SLA 90 days): cosmetic, naming, or documentation issues with no effect on reported numbers, or a completeness gap under 1 percent on a non-critical field.
 
 ## DQ-02 Lineage
 Every CDE must have documented end-to-end lineage. A lineage break is raised to the data owner of the source system and the architecture team. Remediation includes re-documenting lineage and adding automated lineage checks.

@@ -20,6 +20,7 @@ Rules:
 - Pick the single best-fitting principle.
 - Be honest about confidence. Use a value below 0.6 when the issue is ambiguous
   or could fit more than one principle.
+- Severity depends on impact on reporting, not on duration or record counts. Internal-only reports cap at medium. Follow the DQ-01 order exactly.
 
 CONTROL STANDARDS:
 {POLICIES}"""
