@@ -1,0 +1,19 @@
+Daily exposure feed for counterparty X arrived 6 hours  | P5_timeliness            high      <-- MISS
+Approximately 3 percent of trade records are missing fr | P4_completeness          high    
+A report footnote cites a retired field name            | P2_architecture_lineage  low       <-- MISS
+Lineage documentation for the exposure at default field | P2_architecture_lineage  high    
+Collateral values in the margin report differ from the  | P3_accuracy_integrity    high    
+Analysts adjust liquidity coverage figures in a spreads | P3_accuracy_integrity    high    
+Risk team cannot produce an ad hoc regional stress test | P6_adaptability          high    
+Customer country code is null for 0.4 percent of record | P4_completeness          medium    <-- MISS
+The weekly management dashboard refreshes two days late | P5_timeliness            high      <-- MISS
+A change to currency conversion logic produced differen | P3_accuracy_integrity    high      <-- MISS
+A source system owner changed a field definition withou | P2_architecture_lineage  high    
+Duplicate entries in the loan balance feed inflate expo | P3_accuracy_integrity    high    
+Data dictionary entries for 12 critical data elements a | P2_architecture_lineage  medium    <-- MISS
+The quarter-end risk aggregation job failed twice and w | P5_timeliness            high    
+The internal headcount report has misspelled department | P3_accuracy_integrity    low     
+
+Principle accuracy (all):       14/15 = 93%
+Principle accuracy (clear only): 10/11 = 91%
+Severity accuracy (all):        10/15 = 67%

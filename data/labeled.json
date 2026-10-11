@@ -1,0 +1,17 @@
+[
+  {"text": "Daily exposure feed for counterparty X arrived 6 hours late and the risk report missed its cutoff", "principle": "P5_timeliness", "severity": "critical", "ambiguous": false},
+  {"text": "Approximately 3 percent of trade records are missing from the position feed after the platform migration", "principle": "P4_completeness", "severity": "high", "ambiguous": false},
+  {"text": "A report footnote cites a retired field name", "principle": "P3_accuracy_integrity", "severity": "low", "ambiguous": false},
+  {"text": "Lineage documentation for the exposure at default field stops at the staging layer with no documented link to the source system", "principle": "P2_architecture_lineage", "severity": "high", "ambiguous": false},
+  {"text": "Collateral values in the margin report differ from the source system by up to 2 percent for 40 accounts", "principle": "P3_accuracy_integrity", "severity": "high", "ambiguous": false},
+  {"text": "Analysts adjust liquidity coverage figures in a spreadsheet every month with no second reviewer", "principle": "P3_accuracy_integrity", "severity": "high", "ambiguous": false},
+  {"text": "Risk team cannot produce an ad hoc regional stress test within the required 48 hours because the warehouse needs manual extracts", "principle": "P6_adaptability", "severity": "high", "ambiguous": false},
+  {"text": "Customer country code is null for 0.4 percent of records in the reference data table", "principle": "P4_completeness", "severity": "low", "ambiguous": false},
+  {"text": "The weekly management dashboard refreshes two days late after a scheduler change", "principle": "P5_timeliness", "severity": "medium", "ambiguous": false},
+  {"text": "A change to currency conversion logic produced different totals in the regulatory capital report and no regression test was run", "principle": "P3_accuracy_integrity", "severity": "critical", "ambiguous": false},
+  {"text": "A source system owner changed a field definition without notice, breaking downstream mappings for three reports", "principle": "P2_architecture_lineage", "severity": "high", "ambiguous": true},
+  {"text": "Duplicate entries in the loan balance feed inflate exposure totals by 1.5 percent", "principle": "P3_accuracy_integrity", "severity": "high", "ambiguous": true},
+  {"text": "Data dictionary entries for 12 critical data elements are out of date", "principle": "P2_architecture_lineage", "severity": "low", "ambiguous": true},
+  {"text": "The quarter-end risk aggregation job failed twice and was rerun manually, delaying the submission by one day", "principle": "P5_timeliness", "severity": "high", "ambiguous": true},
+  {"text": "The internal headcount report has misspelled department names", "principle": "P3_accuracy_integrity", "severity": "low", "ambiguous": false}
+]
