@@ -1,0 +1,8 @@
+[
+  {"text": "The daily regulatory liquidity report was submitted with stale prior-day balances because the overnight load did not finish", "principle": "P5_timeliness", "severity": "critical", "ambiguous": false},
+  {"text": "Product category codes in the internal sales dashboard map to the wrong labels for two regions", "principle": "P3_accuracy_integrity", "severity": "medium", "ambiguous": false},
+  {"text": "Interest rate fields for 5 percent of derivative positions are blank in the risk aggregation input", "principle": "P4_completeness", "severity": "critical", "ambiguous": false},
+  {"text": "No documented lineage exists between the credit limit field in the reporting layer and the origination system", "principle": "P2_architecture_lineage", "severity": "high", "ambiguous": false},
+  {"text": "The risk platform cannot add a new counterparty grouping to reports without a two-week engineering change", "principle": "P6_adaptability", "severity": "high", "ambiguous": false},
+  {"text": "An internal training attendance report shows a typo in the course title column", "principle": "P3_accuracy_integrity", "severity": "low", "ambiguous": false}
+]

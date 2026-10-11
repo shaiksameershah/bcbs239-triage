@@ -1,0 +1,11 @@
+The daily regulatory liquidity report was submitted wit | P5_timeliness            high      <-- MISS
+Product category codes in the internal sales dashboard  | P3_accuracy_integrity    medium  
+Interest rate fields for 5 percent of derivative positi | P4_completeness          high      <-- MISS
+No documented lineage exists between the credit limit f | P2_architecture_lineage  high    
+The risk platform cannot add a new counterparty groupin | P2_architecture_lineage  low       <-- MISS
+An internal training attendance report shows a typo in  | P6_adaptability          low       <-- MISS
+
+File: data/heldout.json
+Principle accuracy (all):        4/6 = 67%
+Principle accuracy (clear only): 4/6 = 67%
+Severity accuracy (all):         3/6 = 50%
