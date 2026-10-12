@@ -1,0 +1,38 @@
+
+=== principle (dev set) ===
+                         precision    recall  f1-score   support
+
+P2_architecture_lineage      1.000     1.000     1.000        47
+  P3_accuracy_integrity      1.000     1.000     1.000       136
+        P4_completeness      1.000     1.000     1.000        91
+          P5_timeliness      1.000     1.000     1.000       105
+        P6_adaptability      1.000     1.000     1.000        30
+
+               accuracy                          1.000       409
+              macro avg      1.000     1.000     1.000       409
+           weighted avg      1.000     1.000     1.000       409
+
+['P2_architecture_lineage', 'P3_accuracy_integrity', 'P4_completeness', 'P5_timeliness', 'P6_adaptability']
+[[ 47   0   0   0   0]
+ [  0 136   0   0   0]
+ [  0   0  91   0   0]
+ [  0   0   0 105   0]
+ [  0   0   0   0  30]]
+
+=== severity (dev set) ===
+              precision    recall  f1-score   support
+
+    critical      0.500     0.694     0.581       111
+        high      0.606     0.326     0.424       184
+         low      0.184     1.000     0.310         9
+      medium      0.364     0.371     0.368       105
+
+    accuracy                          0.452       409
+   macro avg      0.414     0.598     0.421       409
+weighted avg      0.506     0.452     0.450       409
+
+['critical', 'high', 'low', 'medium']
+[[77 14  9 11]
+ [57 60 10 57]
+ [ 0  0  9  0]
+ [20 25 21 39]]

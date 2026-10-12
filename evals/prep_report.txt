@@ -1,0 +1,16 @@
+train: 4800 rows after validation and exact dedupe (0 invalid)
+  embedded 64/4800  embedded 128/4800  embedded 192/4800  embedded 256/4800  embedded 320/4800  embedded 384/4800  embedded 448/4800  embedded 512/4800  embedded 576/4800  embedded 640/4800  embedded 704/4800  embedded 768/4800  embedded 832/4800  embedded 896/4800  embedded 960/4800  embedded 1024/4800  embedded 1088/4800  embedded 1152/4800  embedded 1216/4800  embedded 1280/4800  embedded 1344/4800  embedded 1408/4800  embedded 1472/4800  embedded 1536/4800  embedded 1600/4800  embedded 1664/4800  embedded 1728/4800  embedded 1792/4800  embedded 1856/4800  embedded 1920/4800  embedded 1984/4800  embedded 2048/4800  embedded 2112/4800  embedded 2176/4800  embedded 2240/4800  embedded 2304/4800  embedded 2368/4800  embedded 2432/4800  embedded 2496/4800  embedded 2560/4800  embedded 2624/4800  embedded 2688/4800  embedded 2752/4800  embedded 2816/4800  embedded 2880/4800  embedded 2944/4800  embedded 3008/4800  embedded 3072/4800  embedded 3136/4800  embedded 3200/4800  embedded 3264/4800  embedded 3328/4800  embedded 3392/4800  embedded 3456/4800  embedded 3520/4800  embedded 3584/4800  embedded 3648/4800  embedded 3712/4800  embedded 3776/4800  embedded 3840/4800  embedded 3904/4800  embedded 3968/4800  embedded 4032/4800  embedded 4096/4800  embedded 4160/4800  embedded 4224/4800  embedded 4288/4800  embedded 4352/4800  embedded 4416/4800  embedded 4480/4800  embedded 4544/4800  embedded 4608/4800  embedded 4672/4800  embedded 4736/4800  embedded 4800/4800
+train: removed 2237 near-duplicates within split, 2563 remain
+dev: 600 rows after validation and exact dedupe (0 invalid)
+  embedded 64/600  embedded 128/600  embedded 192/600  embedded 256/600  embedded 320/600  embedded 384/600  embedded 448/600  embedded 512/600  embedded 576/600  embedded 600/600
+dev: removed 87 near-duplicates within split, 513 remain
+test: 600 rows after validation and exact dedupe (0 invalid)
+  embedded 64/600  embedded 128/600  embedded 192/600  embedded 256/600  embedded 320/600  embedded 384/600  embedded 448/600  embedded 512/600  embedded 576/600  embedded 600/600
+test: removed 85 near-duplicates within split, 515 remain
+dev: removed 104 rows too similar to test
+train: removed 632 rows too similar to dev or test
+
+Final splits
+  train: 1931 rows | severity {'critical': 446, 'high': 955, 'medium': 470, 'low': 60}
+  dev: 409 rows | severity {'critical': 111, 'medium': 105, 'high': 184, 'low': 9}
+  test: 515 rows | severity {'high': 243, 'critical': 115, 'medium': 138, 'low': 19}
