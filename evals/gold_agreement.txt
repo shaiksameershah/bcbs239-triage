@@ -1,14 +1,11 @@
-reviewed 120; principle agreement 0%; severity agreement 0%
-  synthetic label high vs mine High: 21
-  synthetic label high vs mine Medium: 20
-  synthetic label critical vs mine High: 18
-  synthetic label medium vs mine Medium: 14
-  synthetic label critical vs mine Critical: 13
-  synthetic label medium vs mine High: 12
-  synthetic label critical vs mine Medium: 9
-  synthetic label high vs mine Critical: 4
-  synthetic label medium vs mine Critical: 4
-  synthetic label low vs mine Medium: 3
-  synthetic label low vs mine Low: 1
-  synthetic label low vs mine High: 1
+reviewed 120; principle agreement 72%; severity agreement 41%
+  synthetic label high vs mine medium: 20
+  synthetic label critical vs mine high: 18
+  synthetic label medium vs mine high: 12
+  synthetic label critical vs mine medium: 9
+  synthetic label high vs mine critical: 4
+  synthetic label medium vs mine critical: 4
+  synthetic label low vs mine medium: 3
+  synthetic label low vs mine high: 1
 wrote data/gold.json with 120 hand-verified rows
+gold severity counts: {'medium': 46, 'high': 52, 'critical': 21, 'low': 1}

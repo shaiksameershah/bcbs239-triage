@@ -1,841 +1,841 @@
 [
   {
     "text": "Audit note: Analysts adjust exposure figures in a spreadsheet every quarter with no second reviewer",
-    "principle": "P3",
-    "severity": "Medium",
+    "principle": "P3_accuracy_integrity",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "The stress test submission refreshes 1 day late after a vendor upgrade",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Issue log: The exposure feed SLA of 12 hours was breached on 7 of the last 30 days",
-    "principle": "P3",
-    "severity": "Medium",
+    "principle": "P3_accuracy_integrity",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Audit note: Duplicate and missing records in the exposure feed net to a 2.0 percent overstatement of exposure totals",
-    "principle": "P4",
-    "severity": "High",
+    "principle": "P4_completeness",
+    "severity": "high",
     "ambiguous": true,
     "gold": true
   },
   {
     "text": "Risk data is aggregated through 7 unmapped spreadsheets between the core banking platform and the regulatory capital report",
-    "principle": "P2",
-    "severity": "High",
+    "principle": "P2_architecture_lineage",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Approximately 5.4 percent of trade records are missing from the trade booking table after the quarter-end freeze",
-    "principle": "P4",
-    "severity": "Critical",
+    "principle": "P4_completeness",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Adding a new legal entity attribute to the regulatory capital report takes 4 months of development",
-    "principle": "P6",
-    "severity": "High",
+    "principle": "P6_adaptability",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "The daily risk report refreshes 3 days late since the cloud cutover.",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Exposure at default is null for 3.2 percent of records in the position feed",
-    "principle": "P4",
-    "severity": "Medium",
+    "principle": "P4_completeness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Raised by the data quality team: The daily risk report refreshes 3 days late after a vendor upgrade",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Audit note: Risk data is aggregated through 5 unmapped spreadsheets between the trade capture system and the large exposures report",
-    "principle": "P2",
-    "severity": "High",
+    "principle": "P2_architecture_lineage",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Raised by the data quality team: The netting agreement table for the prime brokerage desk arrived 36 hours late",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "audit note: product type in the management dashboard differs from the source system by up to 0.5 percent for 12 accounts",
-    "principle": "P3",
-    "severity": "Medium",
+    "principle": "P3_accuracy_integrity",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Issue log: Late arrival of the collateral valuation table forced analysts to estimate missing risk weight values, which were never trued up",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": true,
     "gold": true
   },
   {
     "text": "Manual override of probability of default by Treasury is not logged, and 9 values changed in the concentration limits report without approval",
-    "principle": "P3",
-    "severity": "High",
+    "principle": "P3_accuracy_integrity",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Finding: No single owner is assigned to the exposure at default data element, and three teams maintain separate definitions",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "No single owner is assigned to the customer country code data element, and three teams maintain separate definitions",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Finding: Risk weight in the concentration limits report does not match the source system by up to 3.1 percent for 120 accounts",
-    "principle": "P3",
-    "severity": "High",
+    "principle": "P3_accuracy_integrity",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Raised by the data quality team: A change to risk weight mapping logic produced different totals in the RWA report and no regression test was run",
-    "principle": "P6",
-    "severity": "High",
+    "principle": "P6_adaptability",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Mandatory field risk weight is blank in 6.9 percent of new records, passing validation because the check is optional",
-    "principle": "P4",
-    "severity": "High",
+    "principle": "P4_completeness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Lineage documentation for the loss given default field stops at the data warehouse with no documented link to the loan origination system",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Lineage documentation for the collateral value field stops at the raw landing zone with no documented link to the collateral management system",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "raised by the data quality team: a change to collateral haircut logic produced different totals in the credit risk return and no regression test was run",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Observed: Intraday liquidity positions for the largest corporate client group are only available 2 hours after the close, so limit breaches are detected the next morning",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Raised by the data quality team: Reconciliation between the exposure feed and the general ledger shows an unexplained break of GBP 800 thousand",
-    "principle": "P3",
-    "severity": "Critical",
+    "principle": "P3_accuracy_integrity",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Audit note: 7 legal entities are absent from the counterparty master, so exposures cannot be aggregated to the parent",
-    "principle": "P4",
-    "severity": "High",
+    "principle": "P4_completeness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Ticket: The internal headcount report has misspelled department names",
-    "principle": "P3",
-    "severity": "Low",
+    "principle": "P3_accuracy_integrity",
+    "severity": "low",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Finding: Reconciliation between the credit limit file and the general ledger shows an unexplained break of GBP 800 thousand",
-    "principle": "P3",
-    "severity": "Critical",
+    "principle": "P3_accuracy_integrity",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "The large exposures report refreshes 1 day late since the cloud cutover",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "The board risk pack refreshes 2 days late since the cloud cutover.",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Duplicate and missing records in the derivatives valuation feed net to a 1.1 percent overstatement of exposure totals",
-    "principle": "P4",
-    "severity": "High",
+    "principle": "P4_completeness",
+    "severity": "high",
     "ambiguous": true,
     "gold": true
   },
   {
     "text": "duplicate entries in the trade booking table overstate totals by 4.0 percent",
-    "principle": "P3",
-    "severity": "Critical",
+    "principle": "P3_accuracy_integrity",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Raised by the data quality team: Loss given default values in the collateral valuation table fall outside valid ranges for 2.4 percent of rows because input validation was bypassed",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Audit note: Intraday liquidity positions for the EMEA retail book are only available 2 hours after the close, so limit breaches are detected the next morning",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Mandatory field netting set ID is blank in 5.1 % of new records, passing validation because the check is optional",
-    "principle": "P4",
-    "severity": "High",
+    "principle": "P4_completeness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "The credit limit file does not cover the structured products book",
-    "principle": "P4",
-    "severity": "High",
+    "principle": "P4_completeness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "The end-of-day consolidation job failed 3 times and was rerun manually, delaying the credit risk return by half a day",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Approximately 0.2 percent of trade records are missing from the derivatives valuation feed following a scheduler change",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Raised by the data quality team: Manual override of product type by the reporting team is not logged, and 4 values changed in the board risk pack without approval",
-    "principle": "P3",
-    "severity": "High",
+    "principle": "P3_accuracy_integrity",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Ticket: The end-of-day position load job failed 2 times and was rerun manually, delaying the large exposures report by two hours",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Historical general ledger extract data before 2021 was not migrated, so trend analysis for the stress test submission is incomplete",
-    "principle": "P4",
-    "severity": "Medium",
+    "principle": "P4_completeness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Risk data is aggregated through 5 unmapped spreadsheets between the risk engine and the stress test submission",
-    "principle": "P2",
-    "severity": "High",
+    "principle": "P2_architecture_lineage",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Finding: The end-of-day consolidation job failed 2 times and was rerun manually, delaying the management dashboard by half a day",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Issue log: The liquidity coverage report refreshes 5 days late after a mapping update",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "audit note: intraday liquidity positions for the commercial real estate portfolio are only available 3 hours after the close, so limit breaches are detected the next morning",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "The end-of-day aggregation job failed 3 times and was rerun manually, delaying the credit risk return by one day",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Raised by the data quality team: Duplicate entries in the reference data table inflate totals by 4.6 percent",
-    "principle": "P5",
-    "severity": "Critical",
+    "principle": "P5_timeliness",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Maturity date is null for 7.7 percent of records in the loan balance feed",
-    "principle": "P4",
-    "severity": "Medium",
+    "principle": "P4_completeness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Observed: Two systems hold conflicting definitions of legal entity identifier and there is no authoritative source designated",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "The stress test submission refreshes 2 days late following a schema change",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "duplicate entries in the position feed inflate totals by 5.1 percent",
-    "principle": "P5",
-    "severity": "Critical",
+    "principle": "P5_timeliness",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Audit note: Adding a new product hierarchy level to the regulatory capital report takes 4 months of development",
-    "principle": "P6",
-    "severity": "High",
+    "principle": "P6_adaptability",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "observed: duplicate and missing records in the loan balance feed net to a 2.5 percent overstatement of exposure totals",
-    "principle": "P4",
-    "severity": "High",
+    "principle": "P4_completeness",
+    "severity": "high",
     "ambiguous": true,
     "gold": true
   },
   {
     "text": "Issue log: Intraday liquidity positions for the commercial real estate portfolio are only available 6 hours after the close, so limit breaches are detected the next morning",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Issue log: Data dictionary entries for 12 critical data elements are out of date",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Issue log: 25 legal entities are absent from the netting agreement table, so exposures cannot be aggregated to the parent",
-    "principle": "P4",
-    "severity": "High",
+    "principle": "P4_completeness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Observed: Two systems hold conflicting definitions of maturity date and there is no authoritative source designated",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Ticket: A source system owner changed the definition of collateral value without notice, breaking downstream mappings for 2 reports",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": true,
     "gold": true
   },
   {
     "text": "Finding: Industry code values in the derivatives valuation feed fall outside valid ranges for 2.7 percent of rows because input validation was bypassed",
-    "principle": "P3",
-    "severity": "High",
+    "principle": "P3_accuracy_integrity",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Audit note: Approximately 2.1 percent of trade records are missing from the FX rates table following a schema change",
-    "principle": "P6",
-    "severity": "High",
+    "principle": "P6_adaptability",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Observed: Historical general ledger extract data before 2019 was not migrated, so trend analysis for the RWA report is incomplete",
-    "principle": "P4",
-    "severity": "Medium",
+    "principle": "P4_completeness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Ticket: Exposure at default in the credit risk return differs from the source system by up to 1.1 percent for 120 accounts",
-    "principle": "P3",
-    "severity": "High",
+    "principle": "P3_accuracy_integrity",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "observed: risk data is aggregated through 9 unmapped spreadsheets between the trade capture system and the regulatory capital report",
-    "principle": "P2",
-    "severity": "High",
+    "principle": "P2_architecture_lineage",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Risk data is aggregated through 7 unmapped spreadsheets between the collateral management system and the RWA report",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Issue log: Duplicate entries in the netting agreement table inflate totals by 7.7 percent",
-    "principle": "P5",
-    "severity": "Critical",
+    "principle": "P5_timeliness",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Observed: Collateral value in the management dashboard differs from the source system by up to 7.1 percent for 120 accounts",
-    "principle": "P5",
-    "severity": "Critical",
+    "principle": "P5_timeliness",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "raised by the data quality team: data dictionary entries for 25 critical data elements are out of date.",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "The exposure feed for the EMEA retail book arrived 1 hours late and the regulatory capital report missed its cutoff",
-    "principle": "P5",
-    "severity": "Critical",
+    "principle": "P5_timeliness",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Finding: Duplicate entries in the position feed inflate totals by 4.8 percent",
-    "principle": "P5",
-    "severity": "Critical",
+    "principle": "P5_timeliness",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Raised by the data quality team: Architecture diagrams for the risk data warehouse have not been updated since the last re-platforming.",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Fields in the management dashboard come from an undocumented transformation, and 2 percent of values cannot be reconciled to source",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": true,
     "gold": true
   },
   {
     "text": "Issue log: Maturity date in the daily risk report differs from the source system by up to 7.0 percent for 12 accounts.",
-    "principle": "P3",
-    "severity": "Critical",
+    "principle": "P3_accuracy_integrity",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Observed: Lineage documentation for the product type field stops at the reporting mart with no documented link to the trade capture system",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Audit note: Approximately 5.2 percent of trade records are missing from the netting agreement table after last week's release",
-    "principle": "P6",
-    "severity": "Critical",
+    "principle": "P6_adaptability",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Observed: The liquidity coverage report refreshes 3 days late after the platform migration",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Lineage documentation for the risk weight field stops at the integration layer with no documented link to the general ledger",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Raised by the data quality team: Approximately 8.6 percent of trade records are missing from the stress test input file following a hotfix",
-    "principle": "P6",
-    "severity": "Critical",
+    "principle": "P6_adaptability",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Issue log: The netting agreement table does not cover the structured products book",
-    "principle": "P4",
-    "severity": "High",
+    "principle": "P4_completeness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Finding: Counterparty rating values in the netting agreement table fall outside valid ranges for 1.8 percent of rows because input validation was bypassed",
-    "principle": "P3",
-    "severity": "High",
+    "principle": "P3_accuracy_integrity",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Ticket: Analysts adjust liquidity coverage figures in a spreadsheet every month with no second reviewer",
-    "principle": "P3",
-    "severity": "Medium",
+    "principle": "P3_accuracy_integrity",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Ticket: The stress test input file does not cover two acquired subsidiaries",
-    "principle": "P4",
-    "severity": "High",
+    "principle": "P4_completeness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Manual override of probability of default by Credit Risk is not logged, and 9 values changed in the RWA report without approval",
-    "principle": "P3",
-    "severity": "High",
+    "principle": "P3_accuracy_integrity",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Lineage documentation for the maturity date field stops at the reporting mart with no documented link to the collateral management system",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Observed: Risk data is aggregated through 7 unmapped spreadsheets between the loan origination system and the credit risk return",
-    "principle": "P2",
-    "severity": "High",
+    "principle": "P2_architecture_lineage",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "finding: risk data is aggregated through 9 unmapped spreadsheets between the trade capture system and the stress test submission",
-    "principle": "P2",
-    "severity": "High",
+    "principle": "P2_architecture_lineage",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Observed: The end-of-day position load job failed 2 times and was rerun manually, delaying the concentration limits report by half a day",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Issue log: Fields in the large exposures report come from an undocumented transformation, and 2 percent of values cannot be reconciled to source",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": true,
     "gold": true
   },
   {
     "text": "Late arrival of the netting agreement table forced analysts to estimate missing probability of default values, which were never trued up",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": true,
     "gold": true
   },
   {
     "text": "Finding: Duplicate and missing records in the position feed net to a 2.4 percent overstatement of exposure totals",
-    "principle": "P4",
-    "severity": "High",
+    "principle": "P4_completeness",
+    "severity": "high",
     "ambiguous": true,
     "gold": true
   },
   {
     "text": "Lineage documentation for the industry code field stops at the staging layer with no documented link to the loan origination system",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "The end-of-day consolidation job failed 1 time and was rerun manually, delaying the management dashboard by one day",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Audit note: Customer country code is null for 8.6 percent of records in the collateral valuation table",
-    "principle": "P5",
-    "severity": "Critical",
+    "principle": "P5_timeliness",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Issue log: The margin report for the commercial real estate portfolio arrived 24 hours late and the board risk pack missed its cutoff",
-    "principle": "P5",
-    "severity": "Critical",
+    "principle": "P5_timeliness",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Finding: Analysts adjust capital figures in a spreadsheet every quarter with no second reviewer",
-    "principle": "P3",
-    "severity": "Medium",
+    "principle": "P3_accuracy_integrity",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Observed: Industry code in the RWA report differs from the source system by up to 0.7 percent for 5 accounts",
-    "principle": "P3",
-    "severity": "Medium",
+    "principle": "P3_accuracy_integrity",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Raised by the data quality team: The stress test submission refreshes 2 days late after the platform migration",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Finding: The end-of-day risk aggregation job failed 2 times and was rerun manually, delaying the concentration limits report by one day",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "The end-of-day position load job failed 2 times and was rerun manually, delaying the liquidity coverage report by two hours",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Audit note: Duplicate and missing records in the reference data table net to a 1.6 percent overstatement of exposure totals",
-    "principle": "P4",
-    "severity": "High",
+    "principle": "P4_completeness",
+    "severity": "high",
     "ambiguous": true,
     "gold": true
   },
   {
     "text": "Historical trade booking table data before 2021 was not migrated, so trend analysis for the board risk pack is incomplete.",
-    "principle": "P4",
-    "severity": "Medium",
+    "principle": "P4_completeness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Audit note: The concentration limits report refreshes 1 day late after a mapping update",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Raised by the data quality team: The collateral valuation table does not cover two acquired subsidiaries",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Issue log: Probability of default in the large exposures report differs from the source system by up to 0.5 percent for 5 accounts",
-    "principle": "P3",
-    "severity": "Medium",
+    "principle": "P3_accuracy_integrity",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Observed: Legal entity identifier values in the derivatives valuation feed fall outside valid ranges for 5.7 percent of rows because input validation was bypassed",
-    "principle": "P3",
-    "severity": "Critical",
+    "principle": "P3_accuracy_integrity",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Finding: Fields in the board risk pack come from an undocumented transformation, and 2 percent of values cannot be reconciled to source",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": true,
     "gold": true
   },
   {
     "text": "Industry code in the liquidity coverage report differs from the source system by up to 4.3 percent for 120 accounts.",
-    "principle": "P3",
-    "severity": "Critical",
+    "principle": "P3_accuracy_integrity",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Finding: Fields in the credit risk return come from an undocumented transformation, and 6 percent of values cannot be reconciled to source",
-    "principle": "P2",
-    "severity": "Critical",
+    "principle": "P2_architecture_lineage",
+    "severity": "critical",
     "ambiguous": true,
     "gold": true
   },
   {
     "text": "Ticket: A change to currency conversion logic produced different totals in the liquidity coverage report and no regression test was run",
-    "principle": "P6",
-    "severity": "High",
+    "principle": "P6_adaptability",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Audit note: The position feed for the repo book arrived 24 hours late",
-    "principle": "P5",
-    "severity": "Medium",
+    "principle": "P5_timeliness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "A change to netting logic produced different totals in the regulatory capital report and no regression test was run",
-    "principle": "P6",
-    "severity": "High",
+    "principle": "P6_adaptability",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Approximately 1.8 percent of trade records are missing from the credit limit file following a hotfix",
-    "principle": "P6",
-    "severity": "High",
+    "principle": "P6_adaptability",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Audit note: Mandatory field exposure at default is blank in 4.3 percent of new records, passing validation because the check is optional",
-    "principle": "P4",
-    "severity": "Critical",
+    "principle": "P4_completeness",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Duplicate and missing records in the FX rates table net to a 3.9 percent overstatement of exposure totals",
-    "principle": "P4",
-    "severity": "Critical",
+    "principle": "P4_completeness",
+    "severity": "critical",
     "ambiguous": true,
     "gold": true
   },
   {
     "text": "ticket: the board risk pack refreshes 2 days late after a mapping update.",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Audit note: Reconciliation between the collateral valuation table and the general ledger shows an unexplained break of EUR 45 million",
-    "principle": "P5",
-    "severity": "Critical",
+    "principle": "P5_timeliness",
+    "severity": "critical",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "audit note: manual extracts needed for ad hoc requests are prepared in spreadsheets with no lineage record",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": true,
     "gold": true
   },
   {
     "text": "Observed: The stress test submission refreshes 2 days late after the quarter-end freeze",
-    "principle": "P5",
-    "severity": "High",
+    "principle": "P5_timeliness",
+    "severity": "high",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Lineage documentation for the product type field stops at the raw landing zone with no documented link to the trade capture system",
-    "principle": "P2",
-    "severity": "Medium",
+    "principle": "P2_architecture_lineage",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Historical reference data table data before 2021 was not migrated, so trend analysis for the RWA report is incomplete",
-    "principle": "P4",
-    "severity": "Medium",
+    "principle": "P4_completeness",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   },
   {
     "text": "Analysts adjust provisioning figures in a spreadsheet every month with no second reviewer",
-    "principle": "P3",
-    "severity": "Medium",
+    "principle": "P3_accuracy_integrity",
+    "severity": "medium",
     "ambiguous": false,
     "gold": true
   }

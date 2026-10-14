@@ -1,0 +1,47 @@
+[
+ {
+  "text": "Audit note: Analysts adjust exposure figures in a spreadsheet every quarter with no second reviewer",
+  "gold_principle": "P3_accuracy_integrity",
+  "gold_severity": "medium",
+  "pred_principle": "P3_accuracy_integrity",
+  "pred_severity": "high",
+  "confidence": 0.9,
+  "review": false
+ },
+ {
+  "text": "The stress test submission refreshes 1 day late after a vendor upgrade",
+  "gold_principle": "P5_timeliness",
+  "gold_severity": "high",
+  "pred_principle": "P5_timeliness",
+  "pred_severity": "low",
+  "confidence": 0.8,
+  "review": false
+ },
+ {
+  "text": "Issue log: The exposure feed SLA of 12 hours was breached on 7 of the last 30 days",
+  "gold_principle": "P3_accuracy_integrity",
+  "gold_severity": "medium",
+  "pred_principle": "P5_timeliness",
+  "pred_severity": "high",
+  "confidence": 0.9,
+  "review": false
+ },
+ {
+  "text": "Audit note: Duplicate and missing records in the exposure feed net to a 2.0 percent overstatement of exposure totals",
+  "gold_principle": "P4_completeness",
+  "gold_severity": "high",
+  "pred_principle": "P3_accuracy_integrity",
+  "pred_severity": "high",
+  "confidence": 0.9,
+  "review": false
+ },
+ {
+  "text": "Risk data is aggregated through 7 unmapped spreadsheets between the core banking platform and the regulatory capital report",
+  "gold_principle": "P2_architecture_lineage",
+  "gold_severity": "high",
+  "pred_principle": "P2_architecture_lineage",
+  "pred_severity": "high",
+  "confidence": 0.9,
+  "review": false
+ }
+]

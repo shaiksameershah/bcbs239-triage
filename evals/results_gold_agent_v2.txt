@@ -1,0 +1,18 @@
+1/1202/1203/1204/1205/1206/1207/1208/1209/12010/12011/12012/12013/12014/12015/12016/12017/12018/12019/12020/12021/12022/12023/12024/12025/12026/12027/12028/12029/12030/12031/12032/12033/12034/12035/12036/12037/12038/12039/12040/12041/12042/12043/12044/12045/12046/12047/12048/12049/12050/12051/120
+FAIL row 51: 1 validation error for Triage
+  Invalid JSON: EOF while parsing a string at line 1 column 125568 [type=json_invalid, input_value='{ "principle": "P2_archi...uce development time in', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+52/12053/12054/12055/12056/12057/12058/12059/12060/12061/12062/12063/12064/12065/12066/12067/12068/12069/12070/12071/12072/12073/12074/12075/12076/12077/12078/12079/12080/12081/12082/12083/12084/12085/12086/12087/12088/12089/12090/12091/12092/12093/12094/12095/12096/12097/12098/12099/120100/120101/120102/120103/120104/120105/120106/120107/120108/120109/120110/120111/120112/120113/120114/120115/120116/120117/120118/120119/120120/120
+failures: 1
+
+--- agent_v2 (n=119) ---
+principle accuracy 66%
+severity accuracy  43%
+under-triage 25% | over-triage 32%
+critical recall 0/21 = 0%
+critical issues with no critical label and no review flag: 21/21
+confusion (rows = gold, columns = predicted): ['low', 'medium', 'high', 'critical']
+  low       [1, 0, 0, 0]
+  medium    [6, 2, 38, 0]
+  high      [3, 0, 48, 0]
+  critical  [0, 0, 21, 0]
