@@ -1,0 +1,23 @@
+rows: 120
+YOUR labels vs SYNTHETIC   principle 72% | severity 41%
+AGENT vs YOUR labels       principle 66% | severity 43%
+AGENT vs SYNTHETIC labels  principle 92% | severity 41%
+always-'high' baseline vs yours, severity 43%
+ambiguous=False (n=106): your vs synthetic principle 79% | severity 42%
+ambiguous=True (n=14): your vs synthetic principle 14% | severity 36%
+
+Synthetic=high, yours=medium: 6 examples
+  - Issue log: The exposure feed SLA of 12 hours was breached on 7 of the last 30 days
+  - Raised by the data quality team: The netting agreement table for the prime brokerage desk arrived 36 hours late
+  - Finding: No single owner is assigned to the exposure at default data element, and three teams maintain separate definitions
+  - Lineage documentation for the loss given default field stops at the data warehouse with no documented link to the loan origination system
+  - Lineage documentation for the collateral value field stops at the raw landing zone with no documented link to the collateral management system
+  - The end-of-day consolidation job failed 3 times and was rerun manually, delaying the credit risk return by half a day
+
+Synthetic=critical, yours=high: 6 examples
+  - The daily risk report refreshes 3 days late since the cloud cutover.
+  - Raised by the data quality team: The daily risk report refreshes 3 days late after a vendor upgrade
+  - Raised by the data quality team: A change to risk weight mapping logic produced different totals in the RWA report and no regression test was run
+  - Mandatory field risk weight is blank in 6.9 percent of new records, passing validation because the check is optional
+  - raised by the data quality team: a change to collateral haircut logic produced different totals in the credit risk return and no regression test was run
+  - Mandatory field netting set ID is blank in 5.1 % of new records, passing validation because the check is optional
